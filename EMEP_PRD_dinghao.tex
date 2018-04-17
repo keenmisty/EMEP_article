@@ -23,9 +23,9 @@
 \section{引言}
 % \begin{frame}{引言}
 % \begin{EMEP/MSC-W模型简介}
-EMEP(European Monitoring and Evaluation Programme)隶属于远距离跨界空气污染公约Convention on Long-range Transboundary Air Pollution (CLRTAP)，旨在解决跨界空气污染问题。该公约旗下包含5个EMEP中心，其中一个为坐落于挪威奥斯陆的MSC-W。
+EMEP(European Monitoring and Evaluation Programme)隶属于远距离跨界空气污染公约Convention on Long-range Transboundary Air Pollution (CLRTAP)，旨在解决跨界空气污染问题。该公约旗下包含5个EMEP中心，其中一个为坐落于挪威奥斯陆的MSC-W，该中心主要负责光化学氧化剂和气溶胶的模拟。
 EMEP/MSC-W模型是由挪威气象局开发的化学传输模型（自1977年至今），最初EMEP/MSC-W模型以50KM*50KM的分辨率覆盖整个欧洲，垂直方向上可从地面延伸到
-对流层顶（100hPa）
+对流层顶（100hPa），着力于解决酸沉降的问题。随着近数十年的发展，EMEP/MSC-W模型发生了许多改变，
 % 丁浩、明睿撰写，常鸣修改
 % \end{EMEP/MSC-W模型简介}
 % \end{frame}{引言}
@@ -55,18 +55,16 @@ width=\textwidth,keepaspectratio]{figwangge.jpg}
 		短波辐射方案 & Goddard Shortwave & \citep{chou2001thermal} \\
 		近地面层方案 & Monin-Obukhov (Janjic Eta) & \citep{janjic1994step} \\
 		陆面过程方案 & Noah LSM & \citep{mukul2004implementation} \\
-		行星边界层方案 & Mellor-Yamada-Janjic PBL & \citep{janjic1994step} \\
-		积云参数化方案 & Kain-Fritsch & \citep{kain1993convective} \\
-		城市冠层方案 & Muilt-Layer BEP & \citep{salamanca2010new} \\
+		行星边界层方案        & Mellor-Yamada-Janjic PBL & \citep{janjic1994step} \\
+		积云参数化方案        & Kain-Fritsch & \citep{kain1993convective} \\
+		城市冠层方案          & Muilt-Layer BEP & \citep{salamanca2010new} \\
 		\bottomrule
 	\end{tabular}
 \end{threeparttable}
 
-研究模拟时段为2017年10月，spin-up时段48小时。
-
 \subsection{EMEP模式机制设置}
 %EMEP的设置为2个case，其中case：simWithoutCB是由WRF-d04结果直接驱动EMEP模拟，case：simWithCB是由WRF-d01驱动EMEP生产出化学边界（ChemBoundary）之后nested到d04的EMEP模型结果。
-EMEP模式为开源代码，其最新版本为V4\_17，可从(\url{https://github.com/metno/emep-ctm})下载获取。
+
 \subsection{数据来源}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
