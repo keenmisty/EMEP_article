@@ -1,0 +1,160 @@
+\documentclass{article}
+
+% -------------------
+% Packages
+% -------------------
+\usepackage[a4paper,left=15mm,right=15mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[UTF8]{ctex}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{color}
+\usepackage[colorlinks=true,linkcolor=black, citecolor=blue, urlcolor=blue]{hyperref}
+%\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+
+% -------------------
+% Title Informations
+% -------------------
+\title{uEMEP模型使用参考手册}
+
+\author{常鸣$^1$, 穆青$^2$, 郑炼明$^1$, 马明睿$^1$, 张兴腾$^1$, 王雪梅$^1$, Bruce Rolstad Denby$^2$, Michael Gauss$^2$}
+\date{%
+      $^1$暨南大学环境与气候研究院\\%
+      $^2$挪威气象局\\[2ex]%
+      \today
+     }
+
+% -------------------
+% Content
+% -------------------
+\begin{document}
+
+\maketitle
+
+%\section{致谢}
+
+uEMEP模型是针对城市尺度空气污染研发的、将欧洲长期使用的EMEP MSC-W中尺度空气质量模型的结果基于经典高斯模型进行降尺度计算的一个新工具。我们尝试撰写这份中文使用参考手册以帮助uEMEP模型学习者更快的掌握这一工具，期望引入更多的气象、环保工作者参与到uEMEP模型的研发中，从而更好的支撑城市空气质量预报工作。这份手册的编制得到了中挪合作项目AirQuip的资助。
+
+\tableofcontents
+\newpage
+
+\section{模型计算过程}
+
+{\color{red} 需要穆青考虑下这部分内容的设计}
+
+uEMEP计算过程的理论基础译自《Development and implementation of uEMEP》(Bruce Rolstad Denby, Peter Wind, Michael Gauss, Hilde Fargeli, Alvaro Valdebenito, Agnes Nyiri, Heiko Klein, Qing Mu, Eivind Grøtting Wærsted著)。
+
+\subsection{总体概念和方法}
+
+\subsection{降尺度方法}
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{fig11.png}
+\centering\caption{降尺度方法概念图}\label{fig11}
+\end{figure}
+
+\subsubsection{污染物浓度重分配}
+\subsubsection{本地排放源的置换}
+
+\subsection{排放贡献计算}
+
+\subsubsection{中尺度模式本地贡献比例的计算}
+\subsubsection{本地和外来贡献的滑动窗口设置}
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{fig1.png}
+\centering\caption{滑动窗口剖面示意图}\label{fig1}
+\end{figure}
+
+\subsection{次网格高斯扩散模型}
+
+\subsection{其他参数化过程}
+
+\section{模型运行设置}
+
+{\color{red} 常鸣、张兴腾撰写}
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{emepuemepflow.png}
+\centering\caption{模式运行过程示意}\label{emepuemepflow}
+\end{figure}
+
+\subsection{模型安装步骤}
+
+\begin{itemize}
+
+\item 代码下载
+
+源代码的下载路径为：\url{https://github.com/metno/uEMEP}。
+
+\item 环境设置
+
+\item 编译安装
+
+\end{itemize}
+
+\subsection{模型运行步骤}
+
+\begin{itemize}
+
+\item 时间设置
+
+\item 路径设置
+
+\item 运行设置
+
+\item 批量作业
+
+\item 记录查看
+
+\end{itemize}
+
+\subsection{控制文件说明}
+
+\subsection{源码内容说明}
+
+\section{输入数据说明}
+
+{\color{red} 常鸣、郑炼明撰写}
+
+\subsection{EMEP模式输出数据}
+
+\subsection{本地排放清单资料}
+
+\subsubsection{需要准备的排放数据类型}
+
+\begin{itemize}
+
+\item 道路移动源
+
+\item 燃烧源
+
+\item 工业过程源
+
+\item 船舶源
+
+\item 居民源
+
+\end{itemize}
+
+\subsubsection{排放数据格式转换}
+
+\section{模拟性能评估}
+
+{\color{red} 常鸣、马明睿撰写}
+
+\subsection{评估方法}
+
+\subsection{研究案例}
+
+\section{常见问题}
+
+\section{参考文献}
+
+%This work has been supported by the AirQuip project funded by the Research Council of Norway (Project Number: 267734).
+
+\end{document}
+
+
+
