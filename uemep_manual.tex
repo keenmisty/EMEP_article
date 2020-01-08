@@ -133,7 +133,7 @@ git clone https://github.com/metno/uEMEP.git
 \begin{itemize}
 
 \item Makefile:
-声明编译所用的fortran编译器，调用了Makefile.SRCS和dependencies用于声明编译关系。默认编译器为ifort，在JNU的hpc上测试通过。
+声明编译所用的fortran编译器，调用了Makefile.SRCS和dependencies用于声明编译关系。默认编译器为ifort，在JNU的HPC上测试通过。
 
 \item Area\_weighted\_interpolation\_function.f90:
 空间权重插值函数。
@@ -146,6 +146,9 @@ Rijksdriehoek投影(EPSG 28992)转为WGS1984坐标系的转换函数。一般我
 
 \item read\_esri\_ascii\_file.f90:
 读取Esri的ArcGIS或ENVI导出文本文件的函数。包含五个subroutine，分别为读头文件、读/写二维ascii、读/写三维ascii。
+
+\item uEMEP\_Kz\_function.f90:
+计算Kz和风廓线的函数。包含如下几个subroutine：uEMEP\_set\_dispersion\_sigma\_Kz，Kz\_func，z\_centremass\_gauss\_func，u\_profile\_val\_func，u\_profile\_neutral\_val\_func，phi\_func，phim\_func，phih\_func，z\_centremass\_gauss\_array\_func。
 
 \end{itemize}
 
