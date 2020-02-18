@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.4.24)  4 FEB 2020 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.4.24)  18 FEB 2020 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./uemep_manual.tex $EXIT
+**./uemep_manual.tex
 (./uemep_manual.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
@@ -1417,16 +1417,18 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (c:/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) [4 <./emepuemepflow.png>]
-Overfull \hbox (25.64948pt too wide) in paragraph at lines 150--152
+Overfull \hbox (91.81331pt too wide) in paragraph at lines 150--152
 []\OT1/cmr/m/n/10.53937 uEMEP[]Kz[]function.f90: \C70/rm/m/n/10.53937/8b ° \C70
 /rm/m/n/10.53937/7b ó\OT1/cmr/m/n/10.53937 Kz\C70/rm/m/n/10.53937/54 å \C70/rm/
 m/n/10.53937/98 Œ \C70/rm/m/n/10.53937/5e ” \C70/rm/m/n/10.53937/7e ø \C70/rm/m
 /n/10.53937/76 Ñ \C70/rm/m/n/10.53937/51 ˝ \C70/rm/m/n/10.53937/65 p|\C70/rm/m/
 n/10.53937/30 ^^B| \C70/rm/m/n/10.53937/53 ^^E \C70/rm/m/n/10.53937/54 + \C70/r
-m/m/n/10.53937/59 Ç \C70/rm/m/n/10.53937/4e  \C70/rm/m/n/10.53937/51 ‡ \C70/rm
-/m/n/10.53937/4e *\OT1/cmr/m/n/10.53937 subroutine|\C70/rm/m/n/10.53937/ff ^^Z|
- \OT1/cmr/m/n/10.53937 uEMEP[]set[]dispersion[]sigma[]Kz|\C70/rm/m/n/10.53937/f
-f ^^L|
+m/m/n/10.53937/59 Ç \C70/rm/m/n/10.53937/4e \OT1/cmr/m/n/10.53937 9\C70/rm/m/n
+/10.53937/4e *\OT1/cmr/m/n/10.53937 subroutine(\C70/rm/m/n/10.53937/75 ( \C70/r
+m/m/n/10.53937/90 ^^T \C70/rm/m/n/10.53937/7b Ä \C70/rm/m/n/10.53937/89 Å \C70/
+rm/m/n/10.53937/8b Ù \C70/rm/m/n/10.53937/66 ^^N\OT1/cmr/m/n/10.53937 )|\C70/rm
+/m/n/10.53937/ff ^^Z| \OT1/cmr/m/n/10.53937 uEMEP[]set[]dispersion[]sigma[]Kz|\
+C70/rm/m/n/10.53937/ff ^^L|
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
@@ -1445,13 +1447,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 23934 strings out of 492995
- 393066 string characters out of 6136402
+ 23933 strings out of 492995
+ 393059 string characters out of 6136402
  453027 words of memory out of 5000000
- 26826 multiletter control sequences out of 15000+600000
+ 26825 multiletter control sequences out of 15000+600000
  68820 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,51p,10447b,1317s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,8n,51p,10441b,1317s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/s
 imsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS
 /fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:
@@ -1505,7 +1507,7 @@ r17.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on uemep_manual.pdf (6 pages, 1169544 bytes).
+Output written on uemep_manual.pdf (6 pages, 1169913 bytes).
 PDF statistics:
  755 PDF objects out of 1000 (max. 8388607)
  535 compressed objects within 6 object streams
