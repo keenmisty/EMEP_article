@@ -94,10 +94,20 @@ uEMEP目前为开放获取的开源模型，其源代码存放在了GitHub上。
 
 uEMEP模型具体下载路径为：\url{https://github.com/metno/uEMEP}。
 
-使用如下命令将uEMEP源代码Clone到本地：
+使用如下命令将uEMEP的源代码克隆到本地：
 
 \begin{lstlisting}[language={[ANSI]C},keywordstyle=\color{blue!70},commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}]
 git clone https://github.com/metno/uEMEP.git
+\end{lstlisting}
+
+由于uEMEP依赖EMEP模式，使用如下命令将EMEP模式的源代码下载到本地：
+
+\begin{lstlisting}[language={[ANSI]C},keywordstyle=\color{blue!70},commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}]
+wget https://raw.githubusercontent.com/metno/emep-ctm/tools/catalog.py
+chmod +x catalog.py
+catalog.py -R rv4\_34
+也可以使用wget直接下载解压缩：
+wget https://github.com/metno/emep-ctm/archive/rv4\_34.tar.gz
 \end{lstlisting}
 
 \item 环境设置
