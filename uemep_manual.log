@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.30)  2 MAR 2020 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.30)  2 MAR 2020 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,10 +1020,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
  ) 
 Here is how much of TeX's memory you used:
- 25802 strings out of 492623
- 428034 string characters out of 6133290
+ 25799 strings out of 492623
+ 428007 string characters out of 6133290
  654705 words of memory out of 5000000
- 29067 multiletter control sequences out of 15000+600000
+ 29064 multiletter control sequences out of 15000+600000
  597518 words of font info for 265 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,63p,552b,1309s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1080,7 +1080,7 @@ r17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on uemep_manual.pdf (6 pages, 1174031 bytes).
+Output written on uemep_manual.pdf (6 pages, 1173754 bytes).
 PDF statistics:
  762 PDF objects out of 1000 (max. 8388607)
  542 compressed objects within 6 object streams
